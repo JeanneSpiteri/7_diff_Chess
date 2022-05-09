@@ -4,7 +4,7 @@ import chess.svg
 import random
 from PIL import Image, ImageOps
 
-
+#test
 def get_concat_h(im1, im2):
     im1 = ImageOps.expand(im1, border=20, fill=0)
     im2 = ImageOps.expand(im2, border=20, fill=0)
